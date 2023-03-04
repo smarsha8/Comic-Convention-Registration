@@ -27,9 +27,9 @@ Partial Class frmComicConventionRegistration
         Me.lblGroupSize = New System.Windows.Forms.Label()
         Me.txtSizeentry = New System.Windows.Forms.TextBox()
         Me.grpSelectBadgeType = New System.Windows.Forms.GroupBox()
-        Me.rdbtnConventionSuperhero = New System.Windows.Forms.RadioButton()
-        Me.rdbtnConventionAutographs = New System.Windows.Forms.RadioButton()
         Me.rdbtnConvention = New System.Windows.Forms.RadioButton()
+        Me.rdbtnConventionAutographs = New System.Windows.Forms.RadioButton()
+        Me.rdbtnConventionSuperhero = New System.Windows.Forms.RadioButton()
         Me.lblRegistrationCost = New System.Windows.Forms.Label()
         Me.lblRegistrationPrice = New System.Windows.Forms.Label()
         Me.btnCalculate = New System.Windows.Forms.Button()
@@ -94,16 +94,16 @@ Partial Class frmComicConventionRegistration
         Me.grpSelectBadgeType.TabStop = False
         Me.grpSelectBadgeType.Text = "Select Badge Type:"
         '
-        'rdbtnConventionSuperhero
+        'rdbtnConvention
         '
-        Me.rdbtnConventionSuperhero.AutoSize = True
-        Me.rdbtnConventionSuperhero.Location = New System.Drawing.Point(33, 50)
-        Me.rdbtnConventionSuperhero.Name = "rdbtnConventionSuperhero"
-        Me.rdbtnConventionSuperhero.Size = New System.Drawing.Size(460, 33)
-        Me.rdbtnConventionSuperhero.TabIndex = 0
-        Me.rdbtnConventionSuperhero.TabStop = True
-        Me.rdbtnConventionSuperhero.Text = "Convention + Superhero Experience"
-        Me.rdbtnConventionSuperhero.UseVisualStyleBackColor = True
+        Me.rdbtnConvention.AutoSize = True
+        Me.rdbtnConvention.Location = New System.Drawing.Point(33, 154)
+        Me.rdbtnConvention.Name = "rdbtnConvention"
+        Me.rdbtnConvention.Size = New System.Drawing.Size(169, 33)
+        Me.rdbtnConvention.TabIndex = 2
+        Me.rdbtnConvention.TabStop = True
+        Me.rdbtnConvention.Text = "Convention"
+        Me.rdbtnConvention.UseVisualStyleBackColor = True
         '
         'rdbtnConventionAutographs
         '
@@ -116,16 +116,16 @@ Partial Class frmComicConventionRegistration
         Me.rdbtnConventionAutographs.Text = "Convention + Autographs"
         Me.rdbtnConventionAutographs.UseVisualStyleBackColor = True
         '
-        'rdbtnConvention
+        'rdbtnConventionSuperhero
         '
-        Me.rdbtnConvention.AutoSize = True
-        Me.rdbtnConvention.Location = New System.Drawing.Point(33, 154)
-        Me.rdbtnConvention.Name = "rdbtnConvention"
-        Me.rdbtnConvention.Size = New System.Drawing.Size(169, 33)
-        Me.rdbtnConvention.TabIndex = 2
-        Me.rdbtnConvention.TabStop = True
-        Me.rdbtnConvention.Text = "Convention"
-        Me.rdbtnConvention.UseVisualStyleBackColor = True
+        Me.rdbtnConventionSuperhero.AutoSize = True
+        Me.rdbtnConventionSuperhero.Location = New System.Drawing.Point(33, 50)
+        Me.rdbtnConventionSuperhero.Name = "rdbtnConventionSuperhero"
+        Me.rdbtnConventionSuperhero.Size = New System.Drawing.Size(460, 33)
+        Me.rdbtnConventionSuperhero.TabIndex = 0
+        Me.rdbtnConventionSuperhero.TabStop = True
+        Me.rdbtnConventionSuperhero.Text = "Convention + Superhero Experience"
+        Me.rdbtnConventionSuperhero.UseVisualStyleBackColor = True
         '
         'lblRegistrationCost
         '
@@ -145,9 +145,9 @@ Partial Class frmComicConventionRegistration
         Me.lblRegistrationPrice.ForeColor = System.Drawing.Color.Red
         Me.lblRegistrationPrice.Location = New System.Drawing.Point(521, 664)
         Me.lblRegistrationPrice.Name = "lblRegistrationPrice"
-        Me.lblRegistrationPrice.Size = New System.Drawing.Size(63, 20)
+        Me.lblRegistrationPrice.Size = New System.Drawing.Size(84, 20)
         Me.lblRegistrationPrice.TabIndex = 6
-        Me.lblRegistrationPrice.Text = "Label1"
+        Me.lblRegistrationPrice.Text = "$0000.00"
         Me.lblRegistrationPrice.Visible = False
         '
         'btnCalculate
